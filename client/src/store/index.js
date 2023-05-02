@@ -7,6 +7,7 @@ const state = proxy({
   isFullTexture: false, //Does the texture style applied covers the shirt fully?
   logoDecal: "./threejs.png", //Initial decal on shirt
   fullDecal: "./threejs.png", //Initial full decal on shirt
+  selectedPart: null, //Selected section of the shirt
 });
 
 export default state;
